@@ -1,0 +1,46 @@
+ul>li
+{
+    color:#00FF00;
+}
+
+.menu a
+{
+    text-decoration: none;
+}
+
+.left h1
+{
+    font-size: .5em;
+}
+
+.lorem span
+{ 
+    font-weight: bold;
+}
+
+span[title] 
+{
+font-style: italic;
+}
+
+p 
+{
+    text-align: justify;
+}
+
+article .title 
+{
+    text-align: center;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
