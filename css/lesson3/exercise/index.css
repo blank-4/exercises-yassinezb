@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+}
+
+.nav > ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav > ul > li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+    padding: 20px;
+}
+
+body {
+    background-image: url(https://www.rolex.com/content/dam/rolexcom/downloads/wallpapers/basel-2018/2048x1536/wallpaper_datejust_41_m126334-0014_2048x1536.jpg);
+    background-repeat: initial;
+}
+
+a:hover {
+    background-color:rgb(197, 197, 197);
+}
