@@ -1,28 +1,46 @@
-ul li {
-    background-color: #00FF00;
+ul>li
+{
+    color:#00FF00;
 }
 
-.submenu a {
+.menu a
+{
     text-decoration: none;
 }
 
-aside.left > h1 {
-    font-size: .6em;
+.left h1
+{
+    font-size: .5em;
 }
 
-p.lorem span {
+.lorem span
+{ 
     font-weight: bold;
 }
 
-span[title] {
-    font-style: italic;
+span[title] 
+{
+font-style: italic;
 }
 
-* p {
+p 
+{
     text-align: justify;
 }
 
-span.title {
+article .title 
+{
     text-align: center;
     color: red;
 }
+
+
+
+
+
+
+
+
+
+
+
