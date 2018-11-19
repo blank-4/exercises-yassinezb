@@ -1,0 +1,19 @@
+@media screen and (min-width: 200px) 
+{
+    .paragraphe {
+      color:red;
+    }
+  }
+
+  @media screen and (min-width: 200px) and (max-width:600px) {
+    .paragraphe {
+      color:yellow;
+    }
+  }
+
+  @media screen and (min-width: 600px) 
+  {
+    .paragraphe {
+      color:green;
+    }
+  }
