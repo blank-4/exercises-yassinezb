@@ -1,79 +1,84 @@
-body p { 
-    width: 200px;
-}
-li:hover{
-    background-color:green; 
+div p {
+    margin-left: 500px;
+    width: 250px;
 }
 
-nav{
+#s1 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border:1px solid black;
+}
+
+#s2 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border:1px solid black;
+}
+
+#s3 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border:1px solid black;
+}
+
+nav {
+    border:1px solid black;
+    background-color: azure;
+}
+nav ul li a {
+    border:1px solid black;
+    background-color: aqua;
+    padding: 10px;
+    text-decoration: none
+}
+
+li :hover {
+    background-color: rgb(217, 255, 242);
+}
+
+nav ul li {
+    display: inline-block;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
     display: flex;
     justify-content: center;
-}
-nav li {
-    display: inline-block;
-    box-sizing: content-box;
-    border-style: solid;
-    width: 200px;
-    height: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
-#S1:target {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    background-color: red;
-}
-#S2:target {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    background-color:blue;
-}
-#S3:target {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    background-color:green;
+.divs {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 120px;
 }
 
-#S1:target + #close1 {
-    position: absolute;
-    display: inline-block;
-    right: 0px;   
-    width: 15px;
-}
-
-#S1 p {
-    display: inline-block;
-    margin: 0px;
-}
-
-#S2:target + #close2 {
-    position: absolute;
-    display: inline-block;
-    right: 0px;   
-    width: 15px;
-}
-
-#S2 p {
-    display: inline-block;
-    margin: 0px;
-}
-
-#S3:target + #close3 {
-    position: absolute;
-    display: inline-block;
-    right: 0px;   
-    width: 15px;
-}
-
-#S3 p {
-    display: inline-block;
-    margin: 0px;
-}
-
-#close1 {
+#s1 , #s2 , #s3 {
     display: none;
 }
 
+#s1:target{
+    display: inline-block;
+}
+#s2:target{
+    display: inline-block;
+}
+#s3:target{
+    display: inline-block;
+}
 
+#croix {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
