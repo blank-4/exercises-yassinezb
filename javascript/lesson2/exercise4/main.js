@@ -15,5 +15,7 @@ switch(position)
         console.log("tu est sur la ligne 3 ou 2")
     break;
 
-    default: "Je ne sais pas ou tu es."
+    default: 
+        console.log ("Je ne sais pas ou tu es.");
+        break; 
     }
