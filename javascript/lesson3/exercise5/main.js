@@ -4,7 +4,7 @@
 
 Créer une deuxième fonciton qui calcule le périmètre d'un cercle :
 * Elle prend en paramètre le rayon du cercle
-* Elle retourne le périmètre
+* Elle retourne le périm.ètre
 
 Créer une fonction qui calcule le diamètre d'un cercle :
 * Elle prend en paramètre le rayon d'un cercle
