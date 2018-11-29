@@ -22,6 +22,10 @@ function calculatePerimetre(rayon) {
 }
 console.log (calculatePerimetre(5));
 
-function calculDiametre ()
+function calculateDiametre(diamètre) {
+    var resultat3 = (3.14*diamètre);
+    return resultat3;
+}
+console.log (calculatePerimetre(22));
 
 
