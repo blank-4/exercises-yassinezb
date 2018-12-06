@@ -18,9 +18,6 @@
     division.style.height = "2000px";
     division.style.backgroundColor = "green"
     division.setAttribute("id", "madiv");
-
-
-    
     /* document.getElementById("texte").style.display = "none"; */
  } 
  maFonction();
