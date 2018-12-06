@@ -35,6 +35,7 @@ function changecolor() {
     var res = random1[randNb];
 
     document.getElementById("texte").style.color = res;
+    console.log(res)
 
     //console.log(Math.random(random1));
 }
