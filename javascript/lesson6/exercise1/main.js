@@ -6,7 +6,7 @@ et faites en sorte qu'elle se mette à jour à chaque seconde.
 
 function temps() {
     var laDate = new Date ();
-    document.getElementById("horloge").innerHTML = ("nous sommes le " + laDate.getHours()+":"+laDate.getMinutes()+":"+laDate.getSeconds());
+    document.getElementById("horloge").innerHTML = ("nous sommes le " + laDate.getDate()+ " et il est " + laDate.getHours()+":"+laDate.getMinutes()+":"+laDate.getSeconds());
 }
 setInterval(temps, 1000);
 
